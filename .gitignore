@@ -1,0 +1,12 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Archivos temporales o de entorno que no deben subirse
+.env
+venv/
+.venv/
+node_modules/
