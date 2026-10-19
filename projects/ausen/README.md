@@ -16,7 +16,7 @@
 
 <br>
 
-<img src="screenshots/light_mode.png" alt="Dashboard Principal Light" width="100%" style="border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+<img src="screenshots/inicio.png" alt="Inicio de AUSEN" width="100%">
 
 </div>
 
@@ -44,9 +44,32 @@ El objetivo principal es brindar transparencia a los empleados sobre sus días d
 
 ## 📸 Tour del Sistema
 
-### Gestión del Personal y Perfiles
-| Nómina de Empleados | Portal del Empleado (Legajo) |
+### Inicio y Bandeja de Aprobaciones
+| Inicio | Bandeja de aprobaciones |
 | :---: | :---: |
+| <img src="screenshots/inicio.png" alt="Inicio" width="100%"> | <img src="screenshots/bandeja.png" alt="Bandeja de aprobaciones" width="100%"> |
+
+### Mapa de Ausencias y Reportes
+| Mapa de ausencias | Reportes |
+| :---: | :---: |
+| <img src="screenshots/mapa.png" alt="Mapa de ausencias" width="100%"> | <img src="screenshots/reportes.png" alt="Reportes" width="100%"> |
+
+### Gestión del Personal y Perfiles
+| Nómina de empleados | Legajo del empleado |
+| :---: | :---: |
+| <img src="screenshots/nomina.png" alt="Nómina de empleados" width="100%"> | <img src="screenshots/legajo.png" alt="Legajo del empleado" width="100%"> |
+
+### Configuración, Modo Oscuro y Móvil
+| Configuración | Portal en modo oscuro |
+| :---: | :---: |
+| <img src="screenshots/configuracion.png" alt="Configuración" width="100%"> | <img src="screenshots/portal_oscuro.png" alt="Portal en modo oscuro" width="100%"> |
+
+<div align="center">
+  <img src="screenshots/pedir_movil.png" alt="Pedido de ausencia desde el celular" width="30%">
+  <p><i>Solicitud de ausencia desde el celular</i></p>
+</div>
+
+---: | :---: |
 | <img src="screenshots/nomina_empleados.png" alt="Nomina Empleados" width="100%" style="border-radius: 8px;"> | <img src="screenshots/portal_empleado.png" alt="Portal Empleado" width="100%" style="border-radius: 8px;"> |
 
 ### Motor de Ausencias y Configuración
@@ -81,49 +104,6 @@ El objetivo principal es brindar transparencia a los empleados sobre sus días d
 * **Control de Versiones:** Git & GitHub.
 
 ---
-
-## 🚀 Instalación y Desarrollo Local
-
-### Opción A: Desarrollo Local con Entorno Virtual 💻
-
-1. **Crear y activar entorno virtual**
-   ```bash
-   python -m venv venv
-# En Windows:
-venv\Scripts\activate
-# En Linux/Mac:
-source venv/bin/activate
-
-2. **Instalar dependencias de Python**
-   ```bash
-   pip install -r requirements.txt
-
-3. **Instalar dependencias Frontend y compilar estilos**
-   ```bash
-   npm install
-   npm run build:css
-
-4. **Configurar variables de entorno**
-   Crea un archivo `.env` en la raíz del proyecto (puedes copiar el `.env.example`) y configura tus claves:
-   ```env
-   SECRET_KEY=tu_clave_secreta_aqui
-   DEBUG=True
-   EMAIL_HOST_PASSWORD=tu_clave_app_gmail
-
-5. **Migrar base de datos y correr servidor**
-   ```bash
-   python manage.py migrate
-   python manage.py runserver
-
-### Opción B: Despliegue Rápido con Docker 🐳
-Al estar el proyecto dockerizado, no necesitas preocuparte por instalar dependencias locales de C (requeridas por pycairo) ni versiones específicas de Python/Node.
-
-1. **Construir y levantar el contenedor**
-```bash
-   docker build -t ausen-app .
-   docker run -d -p 8000:8000 --env-file .env ausen-app
-
-
 
 ## 👤 Autor
 
