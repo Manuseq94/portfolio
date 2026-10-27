@@ -69,26 +69,6 @@ El objetivo principal es brindar transparencia a los empleados sobre sus días d
   <p><i>Solicitud de ausencia desde el celular</i></p>
 </div>
 
----: | :---: |
-| <img src="screenshots/nomina_empleados.png" alt="Nomina Empleados" width="100%" style="border-radius: 8px;"> | <img src="screenshots/portal_empleado.png" alt="Portal Empleado" width="100%" style="border-radius: 8px;"> |
-
-### Motor de Ausencias y Configuración
-| Cálculo Inteligente de Fechas | Panel de Configuración de Sistema |
-| :---: | :---: |
-| <img src="screenshots/calculo_inteligente.png" alt="Cálculo Inteligente" width="100%" style="border-radius: 8px;"> | <img src="screenshots/config.png" alt="Configuración" width="100%" style="border-radius: 8px;"> |
-
-### Herramientas y Visualización
-| Motor de Feriados | Interfaz Adaptativa (Modo Oscuro) |
-| :---: | :---: |
-| <img src="screenshots/feriados.png" alt="Gestión de Feriados" width="100%" style="border-radius: 8px;"> | <img src="screenshots/dark_mode.png" alt="Modo Oscuro" width="100%" style="border-radius: 8px;"> |
-
-<br>
-
-<div align="center">
-  <img src="screenshots/login.png" alt="Login Screen" width="50%" style="border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
-  <p><i>Pantalla de Acceso Seguro (Autenticación)</i></p>
-</div>
-
 ---
 
 ## 🛠️ Stack Tecnológico
